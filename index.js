@@ -16,8 +16,6 @@ app.get('/image', (req, res) => {
 
 app.get('/dynamicimage', (req, res) => {
     console.log(req.query.id)
-    // let imagePath = path.join(__dirname, '..', 'image.png');
-    // res.sendFile(imagePath)
     res.send('Todo')
 })
 
